@@ -23,5 +23,20 @@
         <li><a href="{% url 'login' %}?next=/">登录</a></li>
         <li><a href="{% url 'detail' book_id=1 category=2 %} ">最火的一篇文章</a></li>
     </ul>
+
+    {% spaceless %}
+        <p>
+            这种V大神大神带飞
+            <a href="http://kangbazi.com">扛把子</a>
+        </p>
+    {% endspaceless %}
+    {% autoescape off%}
+        {{ infomation }}
+    {% endautoescape %}
+
+
+    {% verbatim %}
+        {{ if alive }} 如果放到这个标签礼里边 那么 不会报错 一旦放到外边 必须遵循DTL语法 {{ /if }}
+    {% endverbatim %}
 </body>
 </html>

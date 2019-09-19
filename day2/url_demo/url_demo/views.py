@@ -3,7 +3,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request,'index.html')
+    context = {
+        'infomation':'<script>alert("666")</script>'
+    }
+    return render(request,'index.html',context=context)
 
 def login(request):
     next = request.GET.get('next')

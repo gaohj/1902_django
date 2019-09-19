@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd1889a-f3bc-4986-b771-4b9559f10ff0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/movie_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/url_demo/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../for_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../for_demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../for_demo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../for_demo/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url_demo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/url_demo/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,16 +36,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="177" />
-          <entry key="py" value="475" />
+          <entry key="html" value="368" />
+          <entry key="py" value="548" />
           <entry key="py@url_demo" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="9" />
-          <entry key="HTML" value="177" />
-          <entry key="Python" value="475" />
+          <entry key="HTML" value="368" />
+          <entry key="Python" value="548" />
         </counts>
       </usages-collector>
     </session>
@@ -79,26 +73,26 @@
         <entry file="file://$PROJECT_DIR$/url_demo/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="40" />
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1568880407036" expanded="true" signature="94:99" ph="..." />
-                <marker date="1568880407036" expanded="true" signature="155:160" ph="..." />
+                <marker date="1568881931932" expanded="true" signature="169:174" ph="..." />
+                <marker date="1568881931932" expanded="true" signature="246:251" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="277">
+              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -147,11 +141,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/url_demo/views.py" />
         <option value="$PROJECT_DIR$/templates/movie_list.html" />
         <option value="$PROJECT_DIR$/movie/views.py" />
         <option value="$PROJECT_DIR$/movie/urls.py" />
         <option value="$PROJECT_DIR$/url_demo/urls.py" />
+        <option value="$PROJECT_DIR$/url_demo/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
@@ -265,14 +259,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@url_demo" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="manage.py@url_demo" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -298,18 +292,6 @@
     <entry file="file://$PROJECT_DIR$/url_demo/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/url_demo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1568880407036" expanded="true" signature="94:99" ph="..." />
-            <marker date="1568880407036" expanded="true" signature="155:160" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/url_demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -320,17 +302,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/movie/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/movie_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="252">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -344,13 +322,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/movie_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url_demo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1568881931932" expanded="true" signature="169:174" ph="..." />
+            <marker date="1568881931932" expanded="true" signature="246:251" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
