@@ -4,6 +4,7 @@ urlpatterns = [
     path('',views.article),
     #\w 0-9 a-z A-Z _
     # a|b
-    re_path(r'list/(?P<categories>\w+|(\w+\+\w+)+)/',views.article_list),
+    # re_path(r'list/(?P<categories>\w+|(\w+\+\w+)+)/',views.article_list),
+    path('list/<cate:categories>/',views.article_list,name='list')
 ]
 
