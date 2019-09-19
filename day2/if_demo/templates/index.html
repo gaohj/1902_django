@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#{% if age < 18 %}#}
+{#    <p>未成年人进制进入网吧</p>#}
+{#    {% elif age == 18 %}#}
+{#     <p>您刚成年,小撸怡情,大撸伤身,强撸灰飞烟灭</p>#}
+{#    {% else %}#}
+{#    <p> 成年人的世界没有容易二字,时刻保持进步，不要游戏人生</p>#}
+{#{% endif %}#}
+{% if 'c罗' in hero %}
+    <p>c罗正在待命</p>
+    {% else %}
+    <p>c罗不在</p>
+{% endif %}
+</body>
+</html>

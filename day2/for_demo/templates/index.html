@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        {% for book in books %}
+            <li> {{ book }}</li>
+        {% endfor %}
+
+
+
+
+    </ul>
+
+    <ul>
+        {% for book in books reversed %}
+            <li> {{ book }}</li>
+        {% endfor %}
+
+
+
+
+    </ul>
+
+    <ul>
+          {% for key,value in persons.items %}
+              <li>{{ key }}/{{ value }}</li>
+        {% endfor %}
+    </ul>
+
+
+    <table>
+        <tbody>
+            <tr>
+                <th>序号</th>
+                <th>书名</th>
+                <th>作者</th>
+                <th>价格</th>
+            </tr>
+            {% for book in bookes %}
+                {% if forloop.first %}
+                <tr style="background: rebeccapurple">
+                    {% elif forloop.last %}
+                    <tr style="background: greenyellow">
+                    {% else %}
+                    <tr>
+                {% endif %}
+
+{#                    flask 我们用的是 loop.index#}
+{#                    <td>{{ forloop.revcounter }}</td>#}
+                    <td>{{ forloop.counter0 }}</td>
+                    <td>{{ book.name }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.price }}</td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+
+    <ul>
+        {% for comment in comments %}
+            <li>{{ comment }}</li>
+            {% empty %}
+            <li>赶紧抢沙发</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
