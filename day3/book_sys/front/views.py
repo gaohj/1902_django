@@ -21,3 +21,20 @@ def add_book(request):
         cursor = get_cursor()
         cursor.execute("insert into book(id,name,author) values(null,'%s','%s')" % (name,author))
         return redirect(reverse('index'))
+
+def book_detail(request,book_id):
+    cursor = get_cursor()
+    cursor.execute("select id,name,author from book where id=%s" % book_id)
+    book = cursor.fetchone()
+    return render(request,'book_detail.html',context={"book":book})
+
+
+def delete_book(request):
+    if request.method == 'POST':
+        book_id = request.POST.get('book_id')
+        cursor = get_cursor()
+        cursor.execute("delete from book where id=%s" % book_id)
+
+        return redirect(reverse('index'))
+    else:
+        raise RuntimeError("请求方法不被允许")

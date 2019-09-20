@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block title %}
+图书详情页
+{% endblock %}
+
+{% block content %}
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading">{{ book.1 }}</h4>
+          {{ book.2 }}
+      </div>
+    </div>
+    <form action="{% url 'delete_book' %}" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="book_id" value="{{ book.0 }}">
+        <input type="submit" value="删除">
+    </form>
+{% endblock %}
