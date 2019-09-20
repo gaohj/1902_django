@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+
+    首页flask
+
+{% endblock %}
+
+{% block content %}
+    <p>{{ block.super }}</p>
+    我是首页部分的内容直接super()
+{% endblock %}
+
+{% block footer %}
+    我是首页页脚部分
+{% endblock %}
+
