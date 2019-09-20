@@ -1,0 +1,13 @@
+{% load myfilter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义过滤器</title>
+</head>
+<body>
+    {{ value | my_greet:"你好" }}
+
+    {{ mytime | time_since }}
+</body>
+</html>
