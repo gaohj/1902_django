@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7e9b1ef-c9c0-45e1-950d-00cfb4129fac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_files_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_files_demo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_files_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_files_demo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cms.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    <list default="true" id="cac8ce11-4f34-4b5b-81ac-06ae81e3499f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_demo1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static_files_demo/static/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files_demo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files_demo/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files_demo/static_files_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files_demo/static_files_demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files_demo/static_files_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files_demo/static_files_demo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files_demo/templates/cms.html" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files_demo/templates/cms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_files_demo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../static_files_demo/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +36,7 @@
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1296589679">
+    <session id="-1789891608">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
@@ -39,46 +44,77 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="14" />
-          <entry key="html" value="74" />
-          <entry key="py" value="425" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="14" />
-          <entry key="HTML" value="74" />
-          <entry key="Python" value="425" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="2" />
-          <entry key="jpg" value="2" />
-          <entry key="py" value="7" />
+          <entry key="html" value="1" />
+          <entry key="py" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="users" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="2" />
-          <entry key="Image" value="2" />
-          <entry key="Python" value="7" />
+          <entry key="Database Element" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="1" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="14" />
+          <entry key="html" value="4" />
+          <entry key="py" value="206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="Python" value="206" />
+          <entry key="Scratch" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db_demo1/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="79" column="50" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_demo1/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -88,13 +124,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/views.py" />
-        <option value="$PROJECT_DIR$/cms/views.py" />
-        <option value="$PROJECT_DIR$/static/index.css" />
+        <option value="$PROJECT_DIR$/db_demo1/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/cms.html" />
-        <option value="$PROJECT_DIR$/static_files_demo/urls.py" />
-        <option value="$PROJECT_DIR$/static_files_demo/settings.py" />
+        <option value="$PROJECT_DIR$/db_demo1/views.py" />
       </list>
     </option>
   </component>
@@ -116,40 +148,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="static_files_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="static_files_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="db_demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db_demo1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="static_files_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="static_files_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="static_files_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="db_demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="db_demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="db_demo1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="derby&#10;sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\www\wh1902\django\day3\static_files_demo\cms\static\cms" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\www\wh1902\django\day3\static_files_demo\cms\static" />
-      <recent name="C:\www\wh1902\django\day3\static_files_demo\front\static" />
-      <recent name="C:\www\wh1902\django\day3\static_files_demo\front\static\front" />
+      <recent name="C:\www\wh1902\django\day3\db_demo1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,8 +193,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="static_files_demo" type="Python.DjangoServer" factoryName="Django server">
-      <module name="static_files_demo" />
+    <configuration name="db_demo1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="db_demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -194,11 +222,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7e9b1ef-c9c0-45e1-950d-00cfb4129fac" name="Default Changelist" comment="" />
-      <created>1568951311237</created>
+      <changelist id="cac8ce11-4f34-4b5b-81ac-06ae81e3499f" name="Default Changelist" comment="" />
+      <created>1568961698214</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568951311237</updated>
+      <updated>1568961698214</updated>
     </task>
     <servers />
   </component>
@@ -209,11 +237,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -235,68 +264,47 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/views.py">
+    <entry file="file://$PROJECT_DIR$/db_demo1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/static/front/beauty.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/static/beauty.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        <state relative-caret-position="381">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="294">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static_files_demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/db_demo1/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_files_demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="361">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <element signature="e#641#673#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/conf/urls/static.py">
+    <entry file="das://ea340868-c874-42f1-bf3a-5c0947585083/schema/main/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ea340868-c874-42f1-bf3a-5c0947585083/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_demo1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="168">
+          <caret line="79" column="50" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="50" />
         </state>
       </provider>
     </entry>
