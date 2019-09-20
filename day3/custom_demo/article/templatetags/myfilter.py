@@ -5,7 +5,7 @@ register = template.Library()
 
 @register.filter('my_greet')
 def greet(value,word):
-    return value+word
+    return word+value
 @register.filter
 def time_since(value):
     if not isinstance(value,datetime):
