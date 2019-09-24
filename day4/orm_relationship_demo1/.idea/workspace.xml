@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56258a09-1654-4786-855b-83b44dec9626" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/.idea/pagenate_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagenate_demo/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75ee9491-ee1f-43f4-a24a-0a9e8ab1382b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75ee9491-ee1f-43f4-a24a-0a9e8ab1382b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45b84b56-4a64-454a-94c1-df8d64da2580.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/45b84b56-4a64-454a-94c1-df8d64da2580.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontuser/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontuser/migrations/0002_userextension.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontuser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontuser/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,90 +49,67 @@
     </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-983308928">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="article_article" value="5" />
-          <entry key="article_article_tag_set" value="1" />
-          <entry key="article_tag" value="4" />
-          <entry key="article_tag_articles" value="3" />
-          <entry key="django_migrations" value="2" />
-          <entry key="frontuser_frontuser" value="2" />
-          <entry key="frontuser_userextension" value="1" />
-          <entry key="py" value="20" />
+          <entry key="article_article" value="7" />
+          <entry key="article_article_tag_set" value="3" />
+          <entry key="article_category" value="1" />
+          <entry key="article_tag" value="5" />
+          <entry key="article_tag_articles" value="5" />
+          <entry key="article_tag_set" value="1" />
+          <entry key="django_migrations" value="3" />
+          <entry key="frontuser_frontuser" value="4" />
+          <entry key="frontuser_userextension" value="2" />
+          <entry key="py" value="22" />
           <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="18" />
-          <entry key="Python" value="20" />
+          <entry key="Database Element" value="31" />
+          <entry key="Python" value="22" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1440" />
+          <entry key="cell" value="4" />
+          <entry key="py" value="2209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1440" />
+          <entry key="Python" value="2209" />
+          <entry key="Scratch" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1569229779162" expanded="true" signature="125:130" ph="..." />
-                <marker date="1569229779162" expanded="true" signature="386:391" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/article/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+            <state relative-caret-position="59">
+              <caret line="79" column="3" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="82" selection-end-column="22" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1569229779182" expanded="true" signature="222:227" ph="..." />
-                <marker date="1569229779182" expanded="true" signature="798:1179" ph="..." />
+                <marker date="1569292668864" expanded="true" signature="231:233" ph="..." />
+                <marker date="1569292668864" expanded="true" signature="559:719" ph="..." />
+                <marker date="1569292668864" expanded="true" signature="2017:2653" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_article">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_tag">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -157,6 +119,20 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="11" column="68" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1569292542512" expanded="true" signature="197:202" ph="..." />
+                <marker date="1569292542512" expanded="true" signature="629:634" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -295,7 +271,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15902579" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15902579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" weight="0.32884097" />
@@ -311,8 +287,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.2872493" />
+      <window_info anchor="right" id="SciView" weight="0.3295129" />
+      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.2872493" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,7 +383,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/django_migrations">
+    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/frontuser_frontuser">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/frontuser_userextension">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -416,18 +413,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontuser/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="143">
+          <caret line="12" column="93" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="93" />
           <folding>
-            <marker date="1569229045658" expanded="true" signature="102:518" ph="..." />
+            <marker date="1569291436967" expanded="true" signature="102:544" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_article">
+    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_tag">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/django_migrations">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1569292542512" expanded="true" signature="197:202" ph="..." />
+            <marker date="1569292542512" expanded="true" signature="629:634" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -438,7 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_tag">
+    <entry file="das://45b84b56-4a64-454a-94c1-df8d64da2580/schema/main/table/article_tag_set">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -452,26 +468,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1569229779162" expanded="true" signature="125:130" ph="..." />
-            <marker date="1569229779162" expanded="true" signature="386:391" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+        <state relative-caret-position="59">
+          <caret line="79" column="3" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="82" selection-end-column="22" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1569229779182" expanded="true" signature="222:227" ph="..." />
-            <marker date="1569229779182" expanded="true" signature="798:1179" ph="..." />
+            <marker date="1569292668864" expanded="true" signature="231:233" ph="..." />
+            <marker date="1569292668864" expanded="true" signature="559:719" ph="..." />
+            <marker date="1569292668864" expanded="true" signature="2017:2653" ph="..." />
           </folding>
         </state>
       </provider>

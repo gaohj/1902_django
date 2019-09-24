@@ -10,7 +10,7 @@ class FrontUser(models.Model):
 
 class UserExtension(models.Model):
     cardid = models.IntegerField()
-    user = models.OneToOneField("FrontUser",on_delete=models.CASCADE)
+    user = models.OneToOneField("FrontUser",on_delete=models.CASCADE,related_name="extensions")
 
     def __str__(self):
         return "<UserExtension:(id:%s,cardid:%s,user_id:%s)>" % (self.id, self.cardid,self.user.id)
