@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="553a6c03-42f0-41ea-9522-cfaeb008d2e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/.idea/dataSources/45b84b56-4a64-454a-94c1-df8d64da2580.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/.idea/dataSources/45b84b56-4a64-454a-94c1-df8d64da2580.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/article/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/article/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/frontuser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/orm_relationship_demo1/frontuser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lookup_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lookup_demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lookup_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lookup_demo/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="article" value="1" />
+          <entry key="article" value="4" />
           <entry key="category" value="2" />
           <entry key="py" value="2" />
           <entry key="sql" value="1" />
@@ -68,7 +65,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="3" />
+          <entry key="Database Element" value="6" />
           <entry key="Python" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -76,12 +73,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="42" />
-          <entry key="py" value="834" />
+          <entry key="py" value="1114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="834" />
+          <entry key="Python" value="1114" />
           <entry key="Scratch" value="42" />
         </counts>
       </usages-collector>
@@ -92,17 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lookup_demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="11">
+              <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lookup_demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="361">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
               </folding>
@@ -122,16 +119,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state relative-caret-position="675">
+              <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1569297459568" expanded="true" signature="155:263" ph="..." />
-                <marker date="1569297459568" expanded="true" signature="822:1641" ph="..." />
+                <marker date="1569309184950" expanded="true" signature="235:343" ph="..." />
+                <marker date="1569309184950" expanded="true" signature="902:1721" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://236a01de-3759-4c87-a273-a0cfe96c1395/schema/main/table/article">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -146,8 +152,8 @@
       <list>
         <option value="$PROJECT_DIR$/front/models.py" />
         <option value="$PROJECT_DIR$/lookup_demo/settings.py" />
-        <option value="$PROJECT_DIR$/front/views.py" />
         <option value="$PROJECT_DIR$/lookup_demo/urls.py" />
+        <option value="$PROJECT_DIR$/front/views.py" />
       </list>
     </option>
   </component>
@@ -157,7 +163,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="299" />
     <option name="y" value="83" />
     <option name="width" value="1219" />
@@ -285,13 +291,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://236a01de-3759-4c87-a273-a0cfe96c1395/schema/main/table/article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/236a01de-3759-4c87-a273-a0cfe96c1395/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -299,13 +298,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lookup_demo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -319,24 +311,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views.py">
+    <entry file="file://$PROJECT_DIR$/lookup_demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1569297459568" expanded="true" signature="155:263" ph="..." />
-            <marker date="1569297459568" expanded="true" signature="822:1641" ph="..." />
-          </folding>
+        <state relative-caret-position="11">
+          <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://236a01de-3759-4c87-a273-a0cfe96c1395/schema/main/table/article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lookup_demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="361">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1569309184950" expanded="true" signature="235:343" ph="..." />
+            <marker date="1569309184950" expanded="true" signature="902:1721" ph="..." />
           </folding>
         </state>
       </provider>
