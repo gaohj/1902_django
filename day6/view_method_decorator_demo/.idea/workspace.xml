@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08aa41bd-e89a-4493-8f4a-3d86c8ef4037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_querysetqueryset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_querysetqueryset/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_querysetqueryset/_querysetqueryset/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../_querysetqueryset/_querysetqueryset/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_querysetqueryset/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../_querysetqueryset/front/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="08aa41bd-e89a-4493-8f4a-3d86c8ef4037" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,7 @@
     <session id="1393434424">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -98,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="423">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1569401834570" expanded="true" signature="339:447" ph="..." />
@@ -152,7 +145,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view_method_decorator_demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
@@ -365,25 +358,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1569401834570" expanded="true" signature="339:447" ph="..." />
-            <marker date="1569401834570" expanded="true" signature="510:515" ph="..." />
-            <marker date="1569401834570" expanded="true" signature="877:882" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view_method_decorator_demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="e#650#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1569401834570" expanded="true" signature="339:447" ph="..." />
+            <marker date="1569401834570" expanded="true" signature="510:515" ph="..." />
+            <marker date="1569401834570" expanded="true" signature="877:882" ph="..." />
           </folding>
         </state>
       </provider>
