@@ -3,6 +3,7 @@ from .models import Book,BookOrder,Author,Publisher
 from django.http import HttpResponse
 from django.db import connection
 from django.db.models import F,Q,Count,Prefetch
+from django.views.decorators.http import require_http_methods
 # Create your views here.
 def index(request):
     print(type(Book.objects))
@@ -107,3 +108,107 @@ def index6(request):
             print(order.id)
     print(connection.queries[-1])
     return HttpResponse("index6")
+
+def index7(request):
+    books = Book.objects.all()
+    print(connection.queries)
+    for book in  books:
+        print(book.name)
+    print(connection.queries[-1])
+    return HttpResponse("index7")
+
+def index8(request):
+    # books = Book.objects.defer('name')
+    # for sql in connection.queries:
+    #     print("+" * 50)
+    #     print(sql)
+    books = list(Book.objects.defer('name'))
+    for sql in  connection.queries:
+        print("+"*50)
+        print(sql)
+    #sql语句没有查询 name
+    # books = Book.objects.defer('name')
+    # #默认已经过滤掉了 name
+
+    # for book in  books:
+    #     print(book.name)
+    #     print(type(book)) #defer返回的表示字典 而是模型
+    #     # #但是你现在想要遍历 图书名字
+    #     # #那么会重新向数据库发送一次查询 这次就有name了
+    # for sql in  connection.queries:
+    #     print("="*50)
+    #     print(sql)
+    return HttpResponse("index8")
+
+def index9(request):
+    books = Book.objects.only('name')
+    for book in books:
+        print('%s/%s' % (book.id,book.price))
+    for sql in connection.queries:
+        print("=" * 50)
+        print(sql)
+    return HttpResponse("index9")
+
+def index10(request):
+    book = Book.objects.get(id=1)
+    print(book.id)
+    print(connection.queries[-1])
+    return HttpResponse("index10")
+
+
+def index11(request):
+    # publisher = Publisher(name="机械工业出版社")
+    # publisher.save()
+    # publisher = Publisher.objects.create(name="千锋教育出版社")
+    # print(connection.queries[-1])
+    # publisher = Publisher.objects.get_or_create(name="千锋扛把子出版社")
+    # print(type(publisher))
+    publisher = Publisher.objects.bulk_create([
+        Publisher(name="彬彬出版社"),
+        Publisher(name="琼琼出版社")
+    ])
+    print(connection.queries[-1])
+    return HttpResponse("index11")
+
+def index12(request):
+    # res = Book.objects.filter(name="三国演义").exists()
+    # print(res)
+    # res = Book.objects.all()
+    # print(len(res))
+    res = Book.objects.count()
+    print(res)
+    return HttpResponse("index12")
+
+def index13(request):
+    # res = Book.objects.filter(name="三国演义").exists()
+    # print(res)
+    # res = Book.objects.all()
+    # print(len(res))
+    res = Book.objects.count()
+    print(res)
+    return HttpResponse("index13")
+
+def index14(request):
+    res = Book.objects.filter(bookorder__price__gte=85).order_by("bookorder__price").distinct()
+    for book in res:
+        print(book.name)
+    print(connection.queries[-1])
+    return HttpResponse("index14")
+
+def index15(request):
+    # books =Book.objects.all()
+    # for book in books:
+    #     book.price += 10
+    #     book.save()
+    # books = Book.objects.update(price=F("price")+5)
+    orders = BookOrder.objects.filter(id__gte=6).delete()
+    print(connection.queries[-1])
+    return HttpResponse("index15")
+
+def index16(request):
+    # books =Book.objects.all()[1:2] #表示从1取到2 1 2表示索引    包括1 不包括2
+    books =Book.objects.all()[1:] #表示从1取到末尾
+    for book in books:
+        print(book.name)
+    print(connection.queries[-1])
+    return HttpResponse("index16")
