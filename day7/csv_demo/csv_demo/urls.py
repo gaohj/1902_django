@@ -18,4 +18,9 @@ from django.urls import path
 from . import  views
 urlpatterns = [
     path('',views.index),
+    path('csv/',views.template_csv_view),
+    path('large/',views.large_csv_view),
+    path('stream/',views.streaming_csv_view),
+    path('stream1/',views.streaming1_csv_view),
+
 ]
