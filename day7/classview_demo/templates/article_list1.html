@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章列表</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<ul>
+    {% for article in articles %}
+        <li>{{ article.title }}</li>
+    {% endfor %}
+</ul>
+{{ current_page }}
+
+{{ num_pages }}
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+            {#上一页#}
+             {% if page_obj.has_previous %}
+                <li><a href="{% url 'front:list' %}?p={{ page_obj.previous_page_number }}">上一页</a></li>
+             {% else %}
+                  <li class="disabled"><a href="javascript:void(0);">上一页</a></li>
+             {% endif %}
+            {# 左边页码#}
+            {% if left_has_more %}
+                <li><a href="{% url 'front:list' %}?p=1">1</a></li>
+                <li><a href="javascript:void(0);">...</a></li>
+            {% endif %}
+            {% for left_page in left_pages %}
+                <li><a href="{% url 'front:list' %}?p={{ left_page }}">{{ left_page }}</a></li>
+            {% endfor %}
+
+            {# 当前页#}
+             <li class="active"><a href="{% url 'front:list' %}?p={{ current_page }}">{{ current_page }}</a></li>
+            {# 右边页码 #}
+
+            {% for right_page in right_pages %}
+                <li><a href="{% url 'front:list' %}?p={{ right_page }}">{{ right_page }}</a></li>
+            {% endfor %}
+            {% if right_has_more %}
+                 <li><a href="javascript:void(0);">...</a></li>
+                <li><a href="{% url 'front:list' %}?p={{ num_pages }}">{{ num_pages }}</a></li>
+
+            {% endif %}
+
+
+            {# 下一页 #}
+            {% if page_obj.has_next %}
+                <li><a href="{% url 'front:list' %}?p={{ page_obj.next_page_number }}">下一页</a></li>
+             {% else %}
+                  <li class="disabled"><a href="javascript:void(0);">下一页</a></li>
+             {% endif %}
+    </ul>
+</nav>
+</body>
+</html>
