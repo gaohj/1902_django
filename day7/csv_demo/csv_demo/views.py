@@ -47,9 +47,11 @@ def large_csv_view(request):
 
 
 def streaming_csv_view(request):
+    #迭代器
     rows = (["p {}".format(x), str(x)] for x in range(1000000))
     buffer = Echo()
     writer = csv.writer(buffer)
+    #第一个参数生成器
     response = StreamingHttpResponse((writer.writerow(row) for row in rows),content_type="text/csv")
     response['Content-Disposition'] = "attachment;filename=large.csv"
     return response
