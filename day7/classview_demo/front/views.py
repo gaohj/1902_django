@@ -1,10 +1,11 @@
 
-from django.shortcuts import render
+from django.shortcuts import render,redirect,reverse
 from django.views.decorators.http import require_GET,require_safe,require_POST,require_http_methods
 from .models import Aricle
 from django.http import HttpResponse
 from django.views.generic import View,TemplateView,ListView
 from django.core.paginator import Paginator,Page
+from django.utils.decorators import method_decorator
 @require_GET
 def add_article(request):
     articles = []
@@ -24,7 +25,17 @@ class AddArticleView(View):
         print("name:{},content:{}".format(book_name,book_content))
         return HttpResponse("success")
 
+def login_required(func):
+    def wrapper(request,*args,**kwargs):
+        username = request.GET.get('username')
+        if username:
+            return func(request,*args,**kwargs)
+        else:
+            return redirect(reverse('front:login'))
+    return wrapper
 
+
+@method_decorator([login_required],name='dispatch')
 class ArticleDetail(View):
     def get(self,request,article_id):
         print("文章的id是:%s" % article_id)
@@ -103,3 +114,7 @@ class ArticleListView(ListView):
             'right_has_more':right_has_more,
             'num_pages':num_pages #总共多少页
         }
+
+
+def login(request):
+    return HttpResponse("登录页面")
