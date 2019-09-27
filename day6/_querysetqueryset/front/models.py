@@ -40,3 +40,4 @@ class BookOrder(models.Model):
 
     class Meta:
         db_table = 'book_order'
+        ordering = ['-create_time','price']

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf98baf-384a-4941-8f62-6f3c143a5730" name="Default Changelist" comment="" />
+    <list default="true" id="76a93d67-c597-4b31-a0df-9b6336f6e642" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day6/_querysetqueryset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day6/_querysetqueryset/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day6/_querysetqueryset/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day6/_querysetqueryset/front/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day7/classview_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day7/classview_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../form_demo/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,38 +21,37 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1781712648">
+    <session id="-249948832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="114" />
-          <entry key="py" value="640" />
-          <entry key="py@form_demo" value="8" />
+          <entry key="html" value="70" />
+          <entry key="py" value="576" />
+          <entry key="py@form_validater" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="8" />
-          <entry key="HTML" value="114" />
-          <entry key="Python" value="640" />
+          <entry key="CommandLine" value="7" />
+          <entry key="HTML" value="70" />
+          <entry key="Python" value="576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="py" value="4" />
+          <entry key="html" value="1" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="Python" value="4" />
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -51,57 +59,56 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form_demo/settings.py">
+        <entry file="file://$PROJECT_DIR$/form_validater/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="336">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/views.py">
+        <entry file="file://$PROJECT_DIR$/form_validater/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="16" column="41" selection-end-line="28" />
+            <state relative-caret-position="377">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1569555314082" expanded="true" signature="170:949" ph="..." />
-                <marker date="1569555314082" expanded="true" signature="197:303" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6" column="9" selection-end-line="6" selection-end-column="59" />
-              <folding>
-                <marker date="1569554578833" expanded="true" signature="61:66" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form_demo/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-              <folding>
-                <element signature="e#633#665#0" expanded="true" />
+                <element signature="e#638#670#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <marker date="1569569713223" expanded="true" signature="51:56" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1569570104784" expanded="true" signature="186:338" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="13" column="21" lean-forward="true" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="420">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -122,11 +129,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/form_demo/settings.py" />
-        <option value="$PROJECT_DIR$/front/forms.py" />
-        <option value="$PROJECT_DIR$/form_demo/urls.py" />
-        <option value="$PROJECT_DIR$/front/views.py" />
+        <option value="$PROJECT_DIR$/form_validater/settings.py" />
+        <option value="$PROJECT_DIR$/cms/forms.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/form_validater/urls.py" />
+        <option value="$PROJECT_DIR$/cms/views.py" />
       </list>
     </option>
   </component>
@@ -153,23 +160,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="form_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="form_validater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form_validater" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="form_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="form_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="form_validater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form_validater" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="form_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="form_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="form_validater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form_validater" type="462c0819:PsiDirectoryNode" />
+              <item name="form_validater" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +182,6 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../day7/classview_demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -197,8 +198,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="form_demo" type="Python.DjangoServer" factoryName="Django server">
-      <module name="form_demo" />
+    <configuration name="form_validater" type="Python.DjangoServer" factoryName="Django server">
+      <module name="form_validater" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -226,22 +227,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8cf98baf-384a-4941-8f62-6f3c143a5730" name="Default Changelist" comment="" />
-      <created>1569554074635</created>
+      <changelist id="76a93d67-c597-4b31-a0df-9b6336f6e642" name="Default Changelist" comment="" />
+      <created>1569569151105</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569554074635</updated>
+      <updated>1569569151105</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@form_demo" weight="0.32884097" />
+      <window_info anchor="bottom" id="manage.py@form_validater" weight="0.42048517" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
@@ -268,49 +270,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/form_demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/form_validater/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="336">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form_demo/urls.py">
+    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/forms/fields.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6" column="9" selection-end-line="6" selection-end-column="59" />
-          <folding>
-            <marker date="1569554578833" expanded="true" signature="61:66" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="16" column="41" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1569555314082" expanded="true" signature="170:949" ph="..." />
-            <marker date="1569555314082" expanded="true" signature="197:303" ph="..." />
-          </folding>
+        <state relative-caret-position="237">
+          <caret line="517" column="8" selection-start-line="517" selection-start-column="8" selection-end-line="517" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="13" column="21" lean-forward="true" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="420">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_validater/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#638#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1569570104784" expanded="true" signature="186:338" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <marker date="1569569713223" expanded="true" signature="51:56" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
