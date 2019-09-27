@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a93d67-c597-4b31-a0df-9b6336f6e642" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_validater/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/form_validater/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="194" />
-          <entry key="py" value="1500" />
+          <entry key="py" value="1831" />
           <entry key="py@form_validater" value="7" />
         </counts>
       </usages-collector>
@@ -53,7 +48,7 @@
         <counts>
           <entry key="CommandLine" value="7" />
           <entry key="HTML" value="194" />
-          <entry key="Python" value="1500" />
+          <entry key="Python" value="1831" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form_validater/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="353">
               <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
               <folding>
                 <element signature="e#638#670#0" expanded="true" />
@@ -87,11 +82,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="395">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1569572041385" expanded="true" signature="821:826" ph="..." />
+                <marker date="1569574516220" expanded="true" signature="201:205" ph="..." />
+                <marker date="1569574516220" expanded="true" signature="824:829" ph="..." />
               </folding>
             </state>
           </provider>
@@ -109,12 +105,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cms/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="-101">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1569572608102" expanded="true" signature="111:116" ph="..." />
-                <marker date="1569572608102" expanded="true" signature="679:684" ph="..." />
+                <marker date="1569574948596" expanded="true" signature="112:804" ph="..." />
+                <marker date="1569574948596" expanded="true" signature="827:832" ph="..." />
+                <marker date="1569574948596" expanded="true" signature="1393:1398" ph="..." />
               </folding>
             </state>
           </provider>
@@ -329,16 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form_validater/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -356,25 +343,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/form_validater/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+          <folding>
+            <element signature="e#638#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="395">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1569572041385" expanded="true" signature="821:826" ph="..." />
+            <marker date="1569574516220" expanded="true" signature="201:205" ph="..." />
+            <marker date="1569574516220" expanded="true" signature="824:829" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="-101">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1569572608102" expanded="true" signature="111:116" ph="..." />
-            <marker date="1569572608102" expanded="true" signature="679:684" ph="..." />
+            <marker date="1569574948596" expanded="true" signature="112:804" ph="..." />
+            <marker date="1569574948596" expanded="true" signature="827:832" ph="..." />
+            <marker date="1569574948596" expanded="true" signature="1393:1398" ph="..." />
           </folding>
         </state>
       </provider>

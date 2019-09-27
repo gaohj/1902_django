@@ -5,6 +5,9 @@ from django.http import HttpResponse
 from .models import User
 # Create your views here.
 
+
+
+
 class IndexView(View):
     def get(self,request):
         form = MyForm()
@@ -33,5 +36,7 @@ class RegisterView(View):
             User.objects.create(username=username,telephone=telephone)
             return HttpResponse("注册成功")
         else:
-            print(form.errors.get_json_data())
+            #{'telephone': [{'message': '13888888888已经被注册', 'code': ''}]}
+            # print(form.errors.get_json_data())
+            print(form.get_errors())
             return HttpResponse("失败")
