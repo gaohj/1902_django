@@ -18,4 +18,5 @@ from django.urls import path
 from front import views
 urlpatterns = [
     path('add/',views.add_article,name='add'),
+    path('signup/',views.register,name='register'),
 ]

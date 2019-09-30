@@ -1,5 +1,5 @@
 from django import forms
-from .models import Article
+from .models import Article,User
 
 class AddArticleForm(forms.ModelForm):
     def clean_word_num(self):
@@ -25,3 +25,19 @@ class AddArticleForm(forms.ModelForm):
             },
 
         }
+
+class RegisterForm(forms.ModelForm):
+    pwd1 = forms.CharField(max_length=16,min_length=6)
+    pwd2 = forms.CharField(max_length=16,min_length=6)
+
+    #只要是走到这里说明 字段都验证成功了
+    def clean(self):
+        cleaned_data = super(RegisterForm, self).clean()
+        pwd1 = cleaned_data.get('pwd1')
+        pwd2 = cleaned_data.get('pwd2')
+        if pwd1 != pwd2:
+            raise forms.ValidationError("两次密码输入不一致")
+        return cleaned_data
+    class Meta:
+        model = User
+        exclude = ['password']
