@@ -64,6 +64,9 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'builtins':[
+                'django.templatetags.static'
+            ]
         },
     },
 ]
@@ -119,3 +122,19 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
+SESSION_SERIALIZER='django.contrib.sessions.serializers.PickleSerializer'
+# SESSION_ENGINE ='django.contrib.sessions.backends.db' #默认db
+SESSION_ENGINE ='django.contrib.sessions.backends.file' #默认文件中
+# SESSION_ENGINE ='django.contrib.sessions.backends.cache' #默认db
+# SESSION_ENGINE ='django.contrib.sessions.backends.cache_db' #默认db
+
+#设置缓存
+CACHES = {
+    'default':{
+        'BACKEND':'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION':'127.0.0.1:11211'
+    }
+}
