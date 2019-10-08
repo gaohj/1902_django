@@ -36,8 +36,8 @@ class SignInView(View):
         form = SignInForm(request.POST)
         if form.is_valid():
             username = form.cleaned_data.get('username')
-            telephone = form.cleaned_data.get('telephone')
-            user = User.objects.filter(username=username,telephone=telephone).first()
+            password = form.cleaned_data.get('password')
+            user = User.objects.filter(username=username,password=password).first()
             if user:
                 request.session['user_id'] = user.id
                 return redirect(reverse('index'))
@@ -49,3 +49,7 @@ class SignInView(View):
             for error in  errors:
                 messages.info(request,error)
             return redirect(reverse('signin'))
+
+def log_out(request):
+    request.session.flush()
+    return redirect(reverse('index'))

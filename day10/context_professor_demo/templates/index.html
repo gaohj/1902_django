@@ -3,7 +3,12 @@
 {% block title %}
     论坛首页
 {% endblock %}
-
+{% block head %}
+    <script src="{{ STATIC_URL }}js/common.js"></script>
+{% endblock %}
 {% block body %}
     {{ debug }} /{{ sql_queries }}
+
+    {{ request.path }}
+    <img src="{{ MEDIA_URL }}images/xcxk.jpg" alt="">
 {% endblock %}

@@ -16,9 +16,19 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from front import views
+from django.conf import settings
+from django.conf.urls.static import static
+
+# urlpatterns = [
+#     path('', views.index,name='index'),
+#     path('signup/', views.SignUpView.as_view(),name='signup'),
+#     path('signin/', views.SignInView.as_view(),name='signin'),
+#     path('logout/', views.log_out,name='logout'),
+# ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)+static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)
 
 urlpatterns = [
     path('', views.index,name='index'),
     path('signup/', views.SignUpView.as_view(),name='signup'),
     path('signin/', views.SignInView.as_view(),name='signin'),
-]
+    path('logout/', views.log_out,name='logout'),
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
