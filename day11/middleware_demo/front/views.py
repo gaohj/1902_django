@@ -1,9 +1,10 @@
 from django.shortcuts import render,redirect,reverse
 from django.views.generic import View
-from .models import User
+# from .models import User
 from django.contrib import messages
 from django.http import HttpResponse
 from django.middleware.clickjacking import XFrameOptionsMiddleware
+from django.contrib.auth.models import User
 # Create your views here.
 
 def index(request):
