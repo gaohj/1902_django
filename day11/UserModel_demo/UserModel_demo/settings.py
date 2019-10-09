@@ -101,6 +101,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = 'front.User' #告诉系统我不用你的用户模型了 用我自己的
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
