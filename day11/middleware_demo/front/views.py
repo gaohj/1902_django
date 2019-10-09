@@ -3,6 +3,7 @@ from django.views.generic import View
 from .models import User
 from django.contrib import messages
 from django.http import HttpResponse
+from django.middleware.clickjacking import XFrameOptionsMiddleware
 # Create your views here.
 
 def index(request):
