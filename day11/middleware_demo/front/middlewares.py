@@ -44,3 +44,27 @@ class FrontUserMiddleware(object):
             #在上面代码之前 都是request到达view之前
             #之后就是response到达浏览器之前的代码
         return response
+
+from django.utils.deprecation import MiddlewareMixin
+
+class FrontUserMiddlewareMixin(MiddlewareMixin):
+    def __init__(self,get_response):
+        print("这个位置执行的是FrontUserMiddlewareMixin初始化的代码")
+        super(FrontUserMiddlewareMixin, self).__init__(get_response)
+
+    #request 到达view之前执行的代码
+    def process_request(self,request):
+        print('request到达view视图函数之前执行的代码')
+        user_id = request.session.get('user_id')
+        if user_id:
+            try:
+                user = User.objects.get(pk=user_id)
+                request.front_user = user
+            except:
+                request.front_user = None
+        else:
+            request.front_user = None
+    #response到达浏览器之前执行的代码
+    def process_response(self,request,response):
+        print('response到达浏览器之前执行的代码')
+        return response
