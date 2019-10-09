@@ -71,3 +71,19 @@ def inherit_view(request):
     print(user.username)
 
     return HttpResponse("继承自AbstractUser模型")
+
+def inheritbase_view(request):
+    telephone = '18777777799'
+    password = '123456'
+    username = 'aqiong'
+    email = 'aqiong@vip.qq.com'
+    user = authenticate(request,username=telephone,password=password)
+    if user:
+        print(user.username)
+        print("验证成功")
+    else:
+        print("验证失败")
+    # user = User.objects.create_superuser(telephone=telephone,username=username,password=password,email=email)
+    # print(user.username)
+
+    return HttpResponse("继承自AbstractBaseUser模型")

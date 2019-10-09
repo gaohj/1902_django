@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser,BaseUserManager
+from django.contrib.auth.models import AbstractBaseUser,AbstractUser,BaseUserManager,PermissionsMixin
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 # Create your models here.
@@ -53,13 +53,29 @@ class UserManager(BaseUserManager):
 
 
 
-class User(AbstractUser):
+# class User(AbstractUser):
+#     telephone = models.CharField(max_length=11,unique=True)
+#     school = models.CharField(max_length=50)
+#
+#     objects = UserManager()
+#
+#     EMAIL_FIELD = 'email'
+#     USERNAME_FIELD = 'telephone'
+#     REQUIRED_FIELDS = ['email']
+
+class User(AbstractBaseUser, PermissionsMixin):
     telephone = models.CharField(max_length=11,unique=True)
-    school = models.CharField(max_length=50)
+    email = models.CharField(max_length=50,unique=True)
+    username = models.CharField(max_length=30,unique=True)
+    is_active = models.BooleanField(default=True)
+
 
     objects = UserManager()
-
-    EMAIL_FIELD = 'email'
     USERNAME_FIELD = 'telephone'
-    REQUIRED_FIELDS = ['email']
+    REQUIRED_FIELDS = []
 
+    def get_full_name(self):
+        return self.username
+
+    def get_short_name(self):
+        return self.username

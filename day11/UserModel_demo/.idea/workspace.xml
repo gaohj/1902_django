@@ -4,11 +4,9 @@
     <list default="true" id="0af1267d-3b77-4d74-a1ed-79a155c7ee5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b32cf112-6fd3-4dd8-ac41-eb449c976941.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b32cf112-6fd3-4dd8-ac41-eb449c976941.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserModel_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserModel_demo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserModel_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserModel_demo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/migrations/0002_auto_20191009_1626.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
     </list>
@@ -62,47 +60,47 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="auth_user" value="4" />
-          <entry key="front_user" value="2" />
+          <entry key="front_user" value="4" />
           <entry key="front_userextension" value="1" />
           <entry key="html" value="1" />
-          <entry key="py" value="25" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="7" />
+          <entry key="Database Element" value="9" />
           <entry key="HTML" value="1" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="12" />
-          <entry key="py" value="2549" />
+          <entry key="py" value="2711" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="12" />
-          <entry key="Python" value="2549" />
+          <entry key="Python" value="2711" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+            <state relative-caret-position="45">
+              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="84" selection-end-column="21" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1570613913483" expanded="true" signature="262:267" ph="..." />
-                <marker date="1570613913483" expanded="true" signature="1033:1492" ph="..." />
-                <marker date="1570613913483" expanded="true" signature="1239:1492" ph="..." />
-                <marker date="1570613913483" expanded="true" signature="1516:1521" ph="..." />
-                <marker date="1570613913483" expanded="true" signature="2026:2496" ph="..." />
+                <marker date="1570614773829" expanded="true" signature="262:267" ph="..." />
+                <marker date="1570614773829" expanded="true" signature="1033:1492" ph="..." />
+                <marker date="1570614773829" expanded="true" signature="1239:1492" ph="..." />
+                <marker date="1570614773829" expanded="true" signature="1516:1521" ph="..." />
+                <marker date="1570614773829" expanded="true" signature="2026:2496" ph="..." />
               </folding>
             </state>
           </provider>
@@ -111,24 +109,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UserModel_demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-              <folding>
-                <element signature="e#638#670#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="717">
+              <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1570613956415" expanded="true" signature="550:557" ph="..." />
-                <marker date="1570613956415" expanded="true" signature="1946:2174" ph="..." />
+                <marker date="1570614557019" expanded="true" signature="584:591" ph="..." />
+                <marker date="1570614557019" expanded="true" signature="1982:2224" ph="..." />
+                <marker date="1570614557019" expanded="true" signature="2387:2388" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,6 +135,15 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="299" column="4" selection-start-line="299" selection-start-column="4" selection-end-line="323" />
             </state>
           </provider>
         </entry>
@@ -160,9 +165,9 @@
       <list>
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/UserModel_demo/settings.py" />
+        <option value="$PROJECT_DIR$/front/models.py" />
         <option value="$PROJECT_DIR$/UserModel_demo/urls.py" />
         <option value="$PROJECT_DIR$/front/views.py" />
-        <option value="$PROJECT_DIR$/front/models.py" />
       </list>
     </option>
   </component>
@@ -313,13 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="98" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -351,20 +349,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/base_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="324" column="25" selection-start-line="324" selection-start-column="14" selection-end-line="324" selection-end-column="25" />
+        <state relative-caret-position="42">
+          <caret line="299" column="4" selection-start-line="299" selection-start-column="4" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1570614557019" expanded="true" signature="584:591" ph="..." />
+            <marker date="1570614557019" expanded="true" signature="1982:2224" ph="..." />
+            <marker date="1570614557019" expanded="true" signature="2387:2388" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UserModel_demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -377,27 +392,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        <state relative-caret-position="45">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="84" selection-end-column="21" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1570613913483" expanded="true" signature="262:267" ph="..." />
-            <marker date="1570613913483" expanded="true" signature="1033:1492" ph="..." />
-            <marker date="1570613913483" expanded="true" signature="1239:1492" ph="..." />
-            <marker date="1570613913483" expanded="true" signature="1516:1521" ph="..." />
-            <marker date="1570613913483" expanded="true" signature="2026:2496" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1570613956415" expanded="true" signature="550:557" ph="..." />
-            <marker date="1570613956415" expanded="true" signature="1946:2174" ph="..." />
+            <marker date="1570614773829" expanded="true" signature="262:267" ph="..." />
+            <marker date="1570614773829" expanded="true" signature="1033:1492" ph="..." />
+            <marker date="1570614773829" expanded="true" signature="1239:1492" ph="..." />
+            <marker date="1570614773829" expanded="true" signature="1516:1521" ph="..." />
+            <marker date="1570614773829" expanded="true" signature="2026:2496" ph="..." />
           </folding>
         </state>
       </provider>

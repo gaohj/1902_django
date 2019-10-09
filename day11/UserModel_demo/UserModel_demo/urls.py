@@ -23,4 +23,5 @@ urlpatterns = [
     path('proxy/',views.proxy_view,name="proxy"),
     path('one/',views.one_to_one,name="one"),
     path('inherit/',views.inherit_view,name="inherit"),
+    path('inheritbase/',views.inheritbase_view,name="inheritbase"),
 ]
