@@ -28,5 +28,7 @@ urlpatterns = [
     path('inherit/',views.inherit_view,name="inherit"),
     path('add_permission/',views.add_permission,name="add_permission"),
     path('op/',views.operate_permission,name="op"),
+    path('op_group/',views.operate_group,name="op_group"),
+    path('add_article/',views.add_article,name="add_article"),
     path('inheritbase/',views.inheritbase_view,name="inheritbase"),
 ]

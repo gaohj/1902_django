@@ -6,5 +6,9 @@
 </head>
 <body>
     我是首页
+    {% if perms.front.add_article %}
+        <a href="{% url 'add_article' %}">添加文章</a>
+    {% endif %}
+
 </body>
 </html>

@@ -6,8 +6,8 @@ from django.views.generic import View
 # from .models import Person
 from django.http import HttpResponse
 from .forms import LoginForm
-from django.contrib.auth.decorators import login_required
-from django.contrib.auth.models import ContentType,Permission
+from django.contrib.auth.decorators import login_required,permission_required
+from django.contrib.auth.models import ContentType,Permission,Group
 # Create your views here.
 
 def index(request):
@@ -26,6 +26,16 @@ def index(request):
     # else:
     #     print("用户名或者密码错误")
     #user = User.objects.create_user(telephone='18777777777',username='qiongqiong',password="123456",email='qiongqiong@163.com')
+    # user = User.objects.get(pk=2)
+    # print(user.has_perm('front.add_article'))
+    user = User.objects.get(pk=2)
+    # content_type = ContentType.objects.get_for_model(Article)  # 7
+    # # 查看article模型有哪些权限
+    # permissions = Permission.objects.filter(content_type=content_type)
+    # for permission in permissions:
+    #     user.user_permissions.add(permission)
+    #     user.save()
+    print(user.has_perm('front.add_article'))
     return render(request,'index.html')
 
 def proxy_view(request):
@@ -162,3 +172,23 @@ def operate_permission(request):
     #     print("没有这个权限")
     print(user.get_all_permissions())
     return HttpResponse("给用户添加权限")
+@permission_required(['front.add_article','front.view_article'],login_url='/login/')
+def add_article(request):
+
+    return HttpResponse("添加文章页面")
+
+
+def operate_group(request):
+    # group = Group.objects.create(name="运营")
+    # group.save()
+    # groups = Group.objects.first()
+    # content_type = ContentType.objects.get_for_model(Article)  # 7
+    # permissions = Permission.objects.filter(content_type=content_type)
+    # groups.permissions.set(permissions)
+    # groups.save()
+    groups = Group.objects.filter(name="运营").first()
+    user = User.objects.get(pk=2)
+    user.groups.add(groups)
+    user.save()
+    return HttpResponse("操作分组的视图函数")
+
