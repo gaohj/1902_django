@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser,AbstractUser,BaseUserManager,PermissionsMixin
 from django.dispatch import receiver
 from django.db.models.signals import post_save
+from django.contrib.auth import get_user_model
 # Create your models here.
 #User.objects.all()
 #Person.objects.all()  #实际上就是User在执行  不影响User的情况下 添加新的操作
@@ -79,3 +80,13 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     def get_short_name(self):
         return self.username
+
+class Article(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+    author = models.ForeignKey(get_user_model(),on_delete=models.CASCADE)
+
+    class Meta:
+        permissions = [
+            ('view_article','查看文章的权限')
+        ]

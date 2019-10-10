@@ -1,11 +1,13 @@
 from django.shortcuts import render,redirect,reverse
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login,logout
-from .models import User
+from .models import User,Article
 from django.views.generic import View
 # from .models import Person
 from django.http import HttpResponse
 from .forms import LoginForm
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import ContentType,Permission
 # Create your views here.
 
 def index(request):
@@ -123,5 +125,40 @@ def my_logout(request):
     logout(request)
     return redirect(reverse('index'))
 
+# @login_required(login_url='/login/')
+# print(reverse('login'))
+# test = reverse('login')
+@login_required(login_url='/login/')
 def list(request):
     return HttpResponse("测试")
+
+def add_permission(request):
+    #所有的模型都在 content_type表中
+    #给模型添加权限 第一步先要找到 指定的模型
+    content_type = ContentType.objects.get_for_model(Article) #返回Article模型对应的 content_type id
+    permission = Permission.objects.create(content_type=content_type,codename="black article",name='拉黑文章')
+    return HttpResponse("权限创建成功")
+
+def operate_permission(request):
+    #查找用户
+    user = User.objects.first()
+    #想让用户操作哪个模型  先查出模型的id
+    content_type = ContentType.objects.get_for_model(Article) #7
+    #查看article模型有哪些权限
+    permissions = Permission.objects.filter(content_type=content_type)
+    for permission in permissions:
+        pass
+        # print(permission)
+        # user.user_permissions.add(permission)
+        # user.save()
+        # user.user_permissions.remove(permission)
+        # user.save()
+    # user.user_permissions.set(permissions)
+    # user.user_permissions.remove(*permissions)
+    # user.save()
+    # if user.has_perm('front.black_article'):
+    #     print("拥有这个权限")
+    # else:
+    #     print("没有这个权限")
+    print(user.get_all_permissions())
+    return HttpResponse("给用户添加权限")
