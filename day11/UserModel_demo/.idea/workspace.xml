@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0af1267d-3b77-4d74-a1ed-79a155c7ee5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b32cf112-6fd3-4dd8-ac41-eb449c976941.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b32cf112-6fd3-4dd8-ac41-eb449c976941.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserModel_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserModel_demo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,78 +52,84 @@
     <session id="1285418394">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="auth_user" value="4" />
-          <entry key="front_user" value="4" />
+          <entry key="front_user" value="5" />
           <entry key="front_userextension" value="1" />
-          <entry key="html" value="1" />
-          <entry key="py" value="29" />
+          <entry key="html" value="2" />
+          <entry key="py" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="9" />
-          <entry key="HTML" value="1" />
-          <entry key="Python" value="29" />
+          <entry key="Database Element" value="10" />
+          <entry key="HTML" value="2" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="12" />
-          <entry key="py" value="2711" />
+          <entry key="html" value="143" />
+          <entry key="py" value="3584" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="12" />
-          <entry key="Python" value="2711" />
+          <entry key="HTML" value="143" />
+          <entry key="Python" value="3584" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="84" selection-end-column="21" />
+            <state relative-caret-position="507">
+              <caret line="126" column="27" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1570614773829" expanded="true" signature="262:267" ph="..." />
-                <marker date="1570614773829" expanded="true" signature="1033:1492" ph="..." />
-                <marker date="1570614773829" expanded="true" signature="1239:1492" ph="..." />
-                <marker date="1570614773829" expanded="true" signature="1516:1521" ph="..." />
-                <marker date="1570614773829" expanded="true" signature="2026:2496" ph="..." />
+                <element signature="e#0#52#0" expanded="true" />
+                <marker date="1570675009817" expanded="true" signature="359:364" ph="..." />
+                <marker date="1570675009817" expanded="true" signature="1130:1589" ph="..." />
+                <marker date="1570675009817" expanded="true" signature="1336:1589" ph="..." />
+                <marker date="1570675009817" expanded="true" signature="1613:1618" ph="..." />
+                <marker date="1570675009817" expanded="true" signature="2123:2593" ph="..." />
+                <marker date="1570675009817" expanded="true" signature="3113:3118" ph="..." />
+                <marker date="1570675009817" expanded="true" signature="4245:4304" ph="..." />
+                <marker date="1570675009817" expanded="true" signature="4323:4328" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UserModel_demo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding>
+                <element signature="e#638#670#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserModel_demo/urls.py">
+        <entry file="file://$PROJECT_DIR$/front/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="378">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1570614557019" expanded="true" signature="584:591" ph="..." />
-                <marker date="1570614557019" expanded="true" signature="1982:2224" ph="..." />
-                <marker date="1570614557019" expanded="true" signature="2387:2388" ph="..." />
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1570673370263" expanded="true" signature="139:144" ph="..." />
               </folding>
             </state>
           </provider>
@@ -140,10 +145,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/models.py">
+        <entry file="file://$PROJECT_DIR$/UserModel_demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="299" column="4" selection-start-line="299" selection-start-column="4" selection-end-line="323" />
+            <state relative-caret-position="336">
+              <caret line="103" column="15" selection-start-line="103" selection-end-line="103" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -154,6 +168,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -166,8 +181,10 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/UserModel_demo/settings.py" />
         <option value="$PROJECT_DIR$/front/models.py" />
-        <option value="$PROJECT_DIR$/UserModel_demo/urls.py" />
+        <option value="$PROJECT_DIR$/front/forms.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/front/views.py" />
+        <option value="$PROJECT_DIR$/UserModel_demo/urls.py" />
       </list>
     </option>
   </component>
@@ -189,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,12 +227,18 @@
             <path>
               <item name="UserModel_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="UserModel_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserModel_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserModel_demo" type="462c0819:PsiDirectoryNode" />
               <item name="UserModel_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,16 +302,9 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.32884097" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49928367" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007163" side_tool="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -297,11 +312,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.3295129" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928367" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007163" side_tool="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,13 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -342,13 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserModel_demo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="103" column="29" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/base_user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="859">
@@ -356,30 +364,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="299" column="4" selection-start-line="299" selection-start-column="4" selection-end-line="323" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="2898">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1570614557019" expanded="true" signature="584:591" ph="..." />
-            <marker date="1570614557019" expanded="true" signature="1982:2224" ph="..." />
-            <marker date="1570614557019" expanded="true" signature="2387:2388" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserModel_demo/urls.py">
+    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="12138">
+          <caret line="299" column="4" selection-start-line="299" selection-start-column="4" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserModel_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="103" column="15" selection-start-line="103" selection-end-line="103" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5289">
+          <caret line="117" column="23" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1570673370263" expanded="true" signature="139:144" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,17 +414,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="507">
+          <caret line="126" column="27" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1570614773829" expanded="true" signature="262:267" ph="..." />
-            <marker date="1570614773829" expanded="true" signature="1033:1492" ph="..." />
-            <marker date="1570614773829" expanded="true" signature="1239:1492" ph="..." />
-            <marker date="1570614773829" expanded="true" signature="1516:1521" ph="..." />
-            <marker date="1570614773829" expanded="true" signature="2026:2496" ph="..." />
+            <element signature="e#0#52#0" expanded="true" />
+            <marker date="1570675009817" expanded="true" signature="359:364" ph="..." />
+            <marker date="1570675009817" expanded="true" signature="1130:1589" ph="..." />
+            <marker date="1570675009817" expanded="true" signature="1336:1589" ph="..." />
+            <marker date="1570675009817" expanded="true" signature="1613:1618" ph="..." />
+            <marker date="1570675009817" expanded="true" signature="2123:2593" ph="..." />
+            <marker date="1570675009817" expanded="true" signature="3113:3118" ph="..." />
+            <marker date="1570675009817" expanded="true" signature="4245:4304" ph="..." />
+            <marker date="1570675009817" expanded="true" signature="4323:4328" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserModel_demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#638#670#0" expanded="true" />
           </folding>
         </state>
       </provider>

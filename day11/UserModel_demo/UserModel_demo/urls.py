@@ -19,9 +19,12 @@ from front import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('login/', views.LoginView.as_view(),name='login'),
     path('',views.index,name="index"),
     path('proxy/',views.proxy_view,name="proxy"),
     path('one/',views.one_to_one,name="one"),
+    path('list/',views.list,name="list"),
+    path('logout/',views.my_logout,name="logout"),
     path('inherit/',views.inherit_view,name="inherit"),
     path('inheritbase/',views.inheritbase_view,name="inheritbase"),
 ]
