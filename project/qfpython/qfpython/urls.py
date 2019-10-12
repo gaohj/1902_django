@@ -15,8 +15,10 @@ Including another URLconf
 """
 
 from django.urls import path,include
-
+from apps.news import views
 urlpatterns = [
+    path('',views.index,name='index'),
     path('account/',include('apps.qfauth.urls')),
     path('cms/',include('apps.cms.urls')),
+    path('news/',include('apps.news.urls')),
 ]

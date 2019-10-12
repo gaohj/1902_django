@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.qfauth',
     'apps.cms',
+    'apps.news',
 ]
 
 MIDDLEWARE = [
