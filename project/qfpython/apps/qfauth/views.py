@@ -38,8 +38,11 @@ def login_view(request):
         if form.is_valid(): #如果符合表单验证要求
             #接收表单提交
             telephone = form.cleaned_data.get('telephone')
+            print(telephone)
             password = form.cleaned_data.get('password')
+            print(password)
             remember = form.cleaned_data.get('remember')
+            print(remember)
             #验证用户名和密码
             user = authenticate(request,username=telephone,password=password)
             if user:
