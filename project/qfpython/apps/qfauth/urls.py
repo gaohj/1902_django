@@ -6,4 +6,5 @@ app_name = 'qfauth'
 
 urlpatterns = [
     path('register/',views.register,name='register'),
+    path('login/',views.login_view,name='login'),
 ]

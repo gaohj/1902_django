@@ -2,16 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c733e06-9b3c-45c9-9230-3a8bf47855d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/qfauth/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/qfauth/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/restful.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/项目配置工作" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/项目需求.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11/UserModel_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day11/UserModel_demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/arttemplate/template-web.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/common/auth.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/common/body.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/common/constants.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/common/footer.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/common/header.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/common/init.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/common/news_list.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/auth.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/banners.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/course_detail.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/front_base.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/index.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/message.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/news_category.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/news_detail.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/news_list.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/pub_course.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/write_news.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/xfzajax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/js/xfzalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/dist/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/auth.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/auth.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/body.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/constants.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/constants.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/constants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/header.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/init.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/init.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/init.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/news_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/news_list.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/common/news_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_detail.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_detail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_nav.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/course/course_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/news/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/news/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/news/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/news/news_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/news/news_detail.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/news/news_detail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/payinfo/payinfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/payinfo/payinfo.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/payinfo/payinfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/search/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/search/search.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/css/search/search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/js/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/add_staff.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/banners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/news_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/news_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/pub_course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/staffs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/cms/write_news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/common/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/course/course_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/course/course_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/news/news_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/payinfo/payinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/templates/search/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/qfauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/qfauth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/qfauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/qfauth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qfpython/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/qfpython/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,68 +103,120 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/qfpython$Test__front_dist_adminlte_dist.coverage" NAME="Test: front.dist.adminlte.dist Coverage Results" MODIFIED="1570761035414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1333584684">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="css" value="6" />
+          <entry key="html" value="6" />
+          <entry key="js" value="3" />
+          <entry key="json" value="1" />
+          <entry key="py" value="21" />
           <entry key="txt" value="1" />
           <entry key="项目配置工作" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="6" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2243" />
+          <entry key="html" value="214" />
+          <entry key="js" value="244" />
+          <entry key="json" value="2" />
+          <entry key="py" value="3006" />
           <entry key="txt" value="296" />
           <entry key="项目配置工作" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="214" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="244" />
           <entry key="PLAIN_TEXT" value="359" />
-          <entry key="Python" value="2243" />
+          <entry key="Python" value="3006" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/restful.py">
+        <entry file="file://$PROJECT_DIR$/front/templates/cms/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-              <folding>
-                <marker date="1570701303113" expanded="true" signature="61:66" ph="..." />
-                <marker date="1570701303113" expanded="true" signature="232:237" ph="..." />
-                <marker date="1570701303113" expanded="true" signature="437:442" ph="..." />
-                <marker date="1570701303113" expanded="true" signature="569:570" ph="..." />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/templates/cms/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/qfauth/views.py">
+        <entry file="file://$PROJECT_DIR$/front/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1570701303095" expanded="true" signature="398:403" ph="..." />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/css/news/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -90,6 +226,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -102,14 +240,25 @@
       <list>
         <option value="$PROJECT_DIR$/项目配置工作" />
         <option value="$PROJECT_DIR$/项目需求.txt" />
-        <option value="$PROJECT_DIR$/apps/qfauth/models.py" />
         <option value="$PROJECT_DIR$/apps/forms.py" />
-        <option value="$PROJECT_DIR$/apps/qfauth/forms.py" />
-        <option value="$PROJECT_DIR$/apps/qfauth/urls.py" />
-        <option value="$PROJECT_DIR$/qfpython/urls.py" />
         <option value="$PROJECT_DIR$/qfpython/settings.py" />
         <option value="$PROJECT_DIR$/utils/restful.py" />
+        <option value="$PROJECT_DIR$/apps/qfauth/models.py" />
+        <option value="$PROJECT_DIR$/front/dist/css/signin.css" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/apps/qfauth/forms.py" />
+        <option value="$PROJECT_DIR$/apps/qfauth/urls.py" />
         <option value="$PROJECT_DIR$/apps/qfauth/views.py" />
+        <option value="$PROJECT_DIR$/front/templates/login.html" />
+        <option value="$PROJECT_DIR$/front/dist/adminlte/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/front/dist/adminlte/bootstrap/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/apps/cms/views.py" />
+        <option value="$PROJECT_DIR$/apps/cms/urls.py" />
+        <option value="$PROJECT_DIR$/qfpython/urls.py" />
+        <option value="$PROJECT_DIR$/front/templates/cms/index.html" />
+        <option value="$PROJECT_DIR$/front/templates/cms/base.html" />
+        <option value="$PROJECT_DIR$/front/package.json" />
+        <option value="$PROJECT_DIR$/front/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -119,7 +268,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/front/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/front/dist/adminlte/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/front/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="299" />
     <option name="y" value="83" />
     <option name="width" value="1219" />
@@ -131,27 +289,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="qfauth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
               <item name="qfpython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -163,17 +306,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\www\wh1902\django\project\qfpython\front\templates" />
       <recent name="C:\www\wh1902\django\project\qfpython\apps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\wh1902\django\project\qfpython\front\templates" />
+      <recent name="C:\www\wh1902\django\project\qfpython\front\src" />
+      <recent name="C:\www\wh1902\django\project\qfpython\front\dist" />
+      <recent name="C:\www\wh1902\django\project\qfpython\front\templates\cms" />
+      <recent name="C:\www\wh1902\django\project\qfpython\front\dist\adminlte" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +340,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: front.dist.adminlte.dist">
+    <configuration name="Test: front.dist.adminlte.dist" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="qfpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="front.dist.adminlte.dist" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="qfpython" type="Python.DjangoServer" factoryName="Django server">
       <module name="qfpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +384,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.qfpython" />
+      <item itemvalue="Django tests.Test: front.dist.adminlte.dist" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: front.dist.adminlte.dist" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -226,31 +407,35 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test__front_dist_adminlte_dist - 2019.10.11 at 10h 30m 40s.xml">
+      <configuration name="Test: front.dist.adminlte.dist" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32884097" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,74 +466,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="130" selection-start-line="130" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/qfauth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1570698081281" expanded="true" signature="1215:1259" ph="..." />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="504">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="12" selection-end-column="13" />
           <folding>
             <marker date="1570698983134" expanded="true" signature="24:29" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/django/contrib/auth/models.py">
+    <entry file="file://$PROJECT_DIR$/front/dist/adminlte/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="130" selection-start-line="130" selection-end-line="162" />
-          <folding>
-            <element signature="e#4457#5778#0" />
-          </folding>
+        <state relative-caret-position="-18942">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/qfauth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/qfauth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qfpython/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="19" selection-start-line="19" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qfpython/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="47" column="50" lean-forward="true" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/front/dist/adminlte/bootstrap/css/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/front/dist/adminlte/dist/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/restful.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
+        <state relative-caret-position="1218">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
             <marker date="1570701303113" expanded="true" signature="61:66" ph="..." />
@@ -361,12 +516,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/qfauth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="1218">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1570701303095" expanded="true" signature="398:403" ph="..." />
+            <marker date="1570760187755" expanded="true" signature="419:424" ph="..." />
+            <marker date="1570760187755" expanded="true" signature="1162:1171" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/qfauth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cms/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qfpython/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4788">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/qfauth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qfpython/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/dist/adminlte/bower_components/jquery/src/css/var/swap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/add_staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/dist/css/signin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/dist/arttemplate/template-web.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/css/news/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>

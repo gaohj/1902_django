@@ -18,4 +18,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('account/',include('apps.qfauth.urls')),
+    path('cms/',include('apps.cms.urls')),
 ]
