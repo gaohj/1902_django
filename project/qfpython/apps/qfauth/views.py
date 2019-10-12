@@ -72,6 +72,7 @@ def sms_captcha(request):
     telephone = request.GET.get('telephone')
     #生成随机验证码
     code = Captcha.gene_text() #调用captcha文件夹中的 Captcha类中的 gene_text方法 完成随机验证码
+    print(code)
     #将验证码 放到memcached中 或者 session中
     cache.set(telephone,code,5*60)
 
