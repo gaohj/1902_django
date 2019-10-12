@@ -5,7 +5,10 @@ from .forms import LoginForm,RegisterForm
 from django.views.decorators.http import require_POST,require_http_methods
 from django.http import HttpResponse
 from django.contrib.auth import get_user_model
-from utils import restful
+from utils import restful,aliyunsms
+from utils.captcha.xfzcaptcha import Captcha
+from django.core.cache import cache
+from io import BytesIO
 User = get_user_model()
 @require_POST
 def register(request):
@@ -63,4 +66,32 @@ def login_view(request):
         else:
             errors = form.get_errors()
             return restful.params_error(message=errors)
+
+def sms_captcha(request):
+    #接收手机号
+    telephone = request.GET.get('telephone')
+    #生成随机验证码
+    code = Captcha.gene_text() #调用captcha文件夹中的 Captcha类中的 gene_text方法 完成随机验证码
+    #将验证码 放到memcached中 或者 session中
+    cache.set(telephone,code,5*60)
+
+    result = aliyunsms.send_sms(telephone,code)
+    return restful.success()
+
+def img_captcha(request):
+    text,image = Captcha.gene_code() #从验证码类的类方法 获取text和 image  不能直接放到HttpResponse返回
+    #因为是图片 也就是流数据 需要单独的存储
+    out = BytesIO()
+    #调用image的save方法  将image对象保存在BytesIO
+    image.save(out,'png')
+
+    #当image对象进入BytesIO后 指针从0 到1 后期需要读取保存到response对象上面 如果从1往后读，肯定读取不到1
+    #需要从指针播到0
+    out.seek(0)
+    response = HttpResponse(content_type='image/png')
+    response.write(out.read()) #从BytesIO读取数据  保存到response对象上
+    response['Content-length'] = out.tell()
+    cache.set(text.lower(),text.lower(),5*60)
+
+    return response
 
