@@ -19,4 +19,5 @@ from App.url import router
 
 urlpatterns = [
     path('app/',include(router.urls)),
+    path('apps/',include('App.url')),
 ]
