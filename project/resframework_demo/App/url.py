@@ -25,7 +25,7 @@ urlpatterns = [
             "delete":"destroy",
         }
     ), name='movies'),#这个实现根据id查看某一个 或者更新 或者删除
-    url(r'^users/',views.UserViewSet.as_view(),name="users")
+    url(r'^users/',views.UsersCreateAPIView.as_view(),name="users")
 ]
 
 #418794186d364c7f8401a5da9f2e0985

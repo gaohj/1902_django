@@ -124,10 +124,22 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CACHES = {
-    "default":{
-        "BACKEND":'django.core.cache.backends.memcached.MemcachedCache',
-        "LOCATION":'127.0.0.1:11211',
-        # "KEY_FUNCTION":lambda key,prefix_key,version:"dfw:%s"%key
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+#         'LOCATION': '127.0.0.1:11211',
+#         # 'KEY_FUNCTION': lambda key,prefix_key,version:"django:%s"%key
+#     }
+# }
+
+
+
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django_redis.cache.RedisCache',
+#         'LOCATION': 'redis://127.0.0.1:6379/1',
+#         'OPTIONS':{
+#             'CLIENT_CLASS':'django_redis.client.DefaultClient'
+#         }
+#     }
+# }

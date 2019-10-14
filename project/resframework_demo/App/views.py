@@ -15,7 +15,7 @@ from App.serializers import (
 )
 from django.core.cache import cache
 from App.authentications import UserAuthentication
-from App.permissions import UserPermission
+from App.permissions import UserLoginPermission
 
 # Create your views here.
 
@@ -42,46 +42,52 @@ class GameViewSet(ListCreateAPIView):
 
 
 class MovieViewSet(viewsets.ModelViewSet):
-    queryset = Movie.objects.all()
     serializer_class = MovieSerializers
-    authentication_classes = UserAuthentication
-    # permission_classes = UserPermission
+    queryset = Movie.objects.all()
+    #验证你的用户名和密码是否正确 后边可能还有其它的验证
+    authentication_classes = UserAuthentication,
+    #验证你是否登录了   后边可能还有其他的权限
+    permission_classes = UserLoginPermission,
 
 
-# ?action=register
-class UserViewSet(CreateAPIView):
+class UsersCreateAPIView(CreateAPIView):
+
     serializer_class = UserSerializers
+
     def post(self, request, *args, **kwargs):
-        action = request.query_params.get('action')
-        if action == 'register':
-            return self.create(request,*args, **kwargs)
-        elif action == 'login':
-            return self.do_login(request,*args, **kwargs)
+
+        action = request.query_params.get("action")
+
+        if action == "register":
+            return self.create( request, *args, **kwargs)
+        elif action == "login":
+            return self.do_login( request, *args, **kwargs)
         else:
-            raise APIException(detail="请提供正确的操作")
+            raise APIException(detail="请提供正确的动作")
 
-    def do_login(self,request, *args, **kwargs):
-        u_name = request.data.get('u_name')
-        u_password = request.data.get('u_password')
+    def do_login( self,request, *args, **kwargs):
 
+        u_name = request.data.get("u_name")
+        u_password = request.data.get("u_password")
 
         try:
-            user = User.objects.filter(u_name=u_name).first()
+
+            user = User.objects.get(u_name=u_name)
+
         except User.DoesNotExist as e:
-            raise NotFound(detail="该用户不存在")
+            raise NotFound(detail="用户不存在")
 
         if user.u_password != u_password:
-            raise APIException(detail="密码错误")
+            raise APIException(detail="用户密码错误")
 
         token = uuid.uuid4().hex
 
-        cache.set(token,user.id,timeout=60*60*24*7)
-
+        cache.set(token, user.id, timeout=60*60*24*7)
 
         data = {
-            "status":status.HTTP_200_OK,
-            "msg":"登录成功",
-            "token":token
+            "status": status.HTTP_200_OK,
+            "msg": "登录成功",
+            "token": token
         }
-        return Response(data)
 
+        return Response(data)

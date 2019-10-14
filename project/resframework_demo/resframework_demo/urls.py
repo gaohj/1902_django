@@ -15,9 +15,11 @@ Including another URLconf
 """
 
 from django.urls import path,include
+from django.conf.urls import url
 from App.url import router
 
 urlpatterns = [
     path('app/',include(router.urls)),
-    path('apps/',include('App.url')),
+    # path('apps/',include('App.url')),
+    url(r'^apps/',include('App.url'))
 ]
