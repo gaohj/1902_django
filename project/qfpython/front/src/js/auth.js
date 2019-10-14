@@ -113,9 +113,9 @@ Auth.prototype.ListenSigninEvent =function(){
                 if(result['code'] == 200){
                     self.hideEvent()
                     window.location.reload()
-                    alert('success')
+                    messageBox.showSuccess('登录成功')
                 }else{
-                    alert('失败')
+                    messageBox.showError('登录失败')
                 }
             },
             'fail':function (error) {
@@ -162,7 +162,7 @@ Auth.prototype.listenSmsCaptchaEvent = function(){
 //发送短信按钮 点击一次以后禁止点击 并倒计时 然后恢复点击 
 Auth.prototype.smsSuccessEvent = function(){
     var self = this;
-    alert("短信验证码发送成功")
+    messageBox.showError("短信验证码发送成功")
     self.smsCaptcha.addClass('disabled');
     var count  = 10
     self.smsCaptcha.unbind('click');
