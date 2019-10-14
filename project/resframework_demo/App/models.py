@@ -15,3 +15,8 @@ class Game(models.Model):
 class Movie(models.Model):
     m_name = models.CharField(max_length=32)
     m_price = models.FloatField(default=1)
+
+
+class User(models.Model):
+    u_name = models.CharField(max_length=32,unique=True)
+    u_password = models.CharField(max_length=100)

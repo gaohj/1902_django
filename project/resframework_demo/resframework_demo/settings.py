@@ -25,7 +25,9 @@ SECRET_KEY = '9!*lbsc_=^p+qmhau!xer(jps)xdt^qa0z3!mehi)y8he@g7cl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "*"
+]
 
 
 # Application definition
@@ -121,3 +123,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CACHES = {
+    "default":{
+        "BACKEND":'django.core.cache.backends.memcached.MemcachedCache',
+        "LOCATION":'127.0.0.1:11211',
+        # "KEY_FUNCTION":lambda key,prefix_key,version:"dfw:%s"%key
+    }
+}

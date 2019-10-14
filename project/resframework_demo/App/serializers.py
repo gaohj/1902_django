@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from App.models import Book,Game,Movie
+from App.models import Book,Game,Movie,User
 
 
 class BookSerializers(serializers.HyperlinkedModelSerializer):
@@ -41,3 +41,10 @@ class MovieSerializers(serializers.ModelSerializer):
     class Meta:
         model = Movie
         fields = ("id","m_name","m_price")
+
+
+class UserSerializers(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        fields = ("id","u_name","u_password")
