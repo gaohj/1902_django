@@ -17,6 +17,7 @@ def register(request):
         telephone = form.cleaned_data.get('telephone')
         password = form.cleaned_data.get('password1')
         username = form.cleaned_data.get('username')
+        print(telephone,username,password)
         #往数据库中存储
         user = User.objects.create_user(telephone=telephone,username=username,password=password)
         #存储成功 自动完成登录
@@ -72,10 +73,9 @@ def sms_captcha(request):
     telephone = request.GET.get('telephone')
     #生成随机验证码
     code = Captcha.gene_text() #调用captcha文件夹中的 Captcha类中的 gene_text方法 完成随机验证码
-    print(code)
     #将验证码 放到memcached中 或者 session中
     cache.set(telephone,code,5*60)
-
+    print(code)
     result = aliyunsms.send_sms(telephone,code)
     return restful.success()
 
@@ -93,6 +93,6 @@ def img_captcha(request):
     response.write(out.read()) #从BytesIO读取数据  保存到response对象上
     response['Content-length'] = out.tell()
     cache.set(text.lower(),text.lower(),5*60)
-
+    print(cache.get(text.lower()))
     return response
 

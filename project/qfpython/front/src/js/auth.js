@@ -212,7 +212,6 @@ Auth.prototype.ListenSignupEvent =function(){
         var username = usernameInput.val();
         var img_captcha = imgCaptchaInput.val();
         var sms_captcha = smsCaptchaInput.val();
-
         xfzajax.post({
             'url':'/account/register/',
             'data':{

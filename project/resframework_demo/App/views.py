@@ -45,9 +45,9 @@ class MovieViewSet(viewsets.ModelViewSet):
     serializer_class = MovieSerializers
     queryset = Movie.objects.all()
     #验证你的用户名和密码是否正确 后边可能还有其它的验证
-    authentication_classes = UserAuthentication,
+    authentication_classes = [UserAuthentication,]
     #验证你是否登录了   后边可能还有其他的权限
-    permission_classes = UserLoginPermission,
+    permission_classes = [UserLoginPermission,]
 
 
 class UsersCreateAPIView(CreateAPIView):
