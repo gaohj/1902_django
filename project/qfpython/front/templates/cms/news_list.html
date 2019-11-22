@@ -1,5 +1,5 @@
 {% extends 'cms/base.html' %}
-{% load news_filters %}
+{#{% load news_filters %}#}
 
 {% block title %}
     新闻列表
@@ -88,12 +88,12 @@
                 <tbody>
                     {% for news in newses %}
                         <tr>
-                            <td><a target="_blank" href="{% url 'news:news_detail' news_id=news.pk %}">{{ news.title }}</a></td>
+                            <td><a target="_blank" href="#">{{ news.title }}</a></td>
                             <td>{{ news.category.name }}</td>
-                            <td>{{ news.pub_time|time_format }}</td>
+                            <td>{{ news.pub_time }}</td>
                             <td>{{ news.author.username }}</td>
                             <td>
-                                <a href="{% url 'cms:edit_news' %}?news_id={{ news.pk }}" class="btn btn-info btn-xs">编辑</a>
+                                <a href="#" class="btn btn-info btn-xs">编辑</a>
                                 <button class="btn btn-danger btn-xs delete-btn" data-news-id="{{ news.pk }}">删除</button>
                             </td>
                         </tr>
@@ -148,6 +148,3 @@
 </div>
 </div>
 {% endblock %}
-
-400 700 3030
-400 699 3030

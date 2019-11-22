@@ -88,11 +88,45 @@ News.prototype.ListenQiniuUploadFileEvent = function(){
      var progressGroup = $("#progress-group");
      progressGroup.hide();
  };
+
+News.prototype.ListenSubmitEvent = function(){
+    var submitBtn = $('#submit-btn');
+    submitBtn.click(function (event) {
+        event.preventDefault();//阻止默认提交
+        var title = $("input[name='title']").val();
+        var category = $("select[name='category']").val();
+        var desc = $("input[name='desc']").val();
+        var thumbnail = $("input[name='thumbnail']").val();
+        var content = window.ue.getContent();
+        var url = '/cms/write_news/';
+        alert(category)
+        xfzajax.post({
+            'url':url,
+            'data':{
+                'title': title,
+                'category': category,
+                'desc': desc,
+                'thumbnail': thumbnail,
+                'content': content,
+            },
+            'success':function (result) {
+                if(result['code'] === 200){
+                    alert('发表成功');
+                }
+            }
+        })
+
+
+    })
+}
+
+
 News.prototype.run = function () {
     var self = this;
     // self.ListenUploadFileEvent();
     self.ListenQiniuUploadFileEvent();
     self.initUEditor();
+    self.ListenSubmitEvent();
 }
 
 $(function () {
