@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'apps.qfauth',
     'apps.cms',
     'apps.news',
+    'apps.ueditor',
 ]
 
 MIDDLEWARE = [
@@ -151,3 +152,23 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'front','dist')
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+QINIU_ACCESS_KEY = 'p_p2-jutlTI1mlPCSfMEO8DyZnkQaiFrd9IOlvpz'
+QINIU_SECRET_KEY = 'rN0YQux570vbhL5d8QvShrV-SnjzTdqhlfWstWri'
+QINIU_BUCKET_NAME = 'qfkangbazi'
+QINIU_DOMAIN = 'http://q1cpa1kbu.bkt.clouddn.com/'
+
+
+# UEditor配置
+UEDITOR_UPLOAD_TO_QINIU = True
+UEDITOR_QINIU_ACCESS_KEY = QINIU_ACCESS_KEY
+UEDITOR_QINIU_SECRET_KEY = QINIU_SECRET_KEY
+UEDITOR_QINIU_BUCKET_NAME = QINIU_BUCKET_NAME
+UEDITOR_QINIU_DOMAIN = QINIU_DOMAIN
+
+UEDITOR_UPLOAD_PATH = MEDIA_ROOT
+UEDITOR_UPLOAD_TO_SERVER = True
+UEDITOR_CONFIG_PATH = os.path.join(BASE_DIR,'front','dist','ueditor','config.json')
