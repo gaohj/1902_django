@@ -3,7 +3,10 @@ from django.http import HttpResponse
 from .models import News,NewsCategory
 from django.conf import settings
 from utils import restful
-from .serializers import NewsSerializers
+from .serializers import NewsSerializers,CommetSerializers
+from django.http import Http404
+from .forms import PublicCommentForm
+from .models import Comments
 # Create your views here.
 def index(request):
     count = settings.ONE_PAGE_NEWS_COUNT
@@ -31,3 +34,29 @@ def news_list(request):
     serializer = NewsSerializers(newses,many=True)#每一条数据都要序列化
     data = serializer.data
     return restful.result(data=data)
+
+
+def news_detail(request,news_id):
+    try:
+        newses = News.objects.select_related('category','author').get(pk=news_id)
+        context = {
+            'news':newses
+        }
+        return render(request,'news/news_detail.html',context=context)
+    except News.DoesNotExist:
+        raise Http404
+
+def public_comment(request):
+    form = PublicCommentForm(request.POST)
+    if form.is_valid():
+        news_id = form.cleaned_data.get('news_id')
+        content = form.cleaned_data.get('content')
+        news = News.objects.get(pk=news_id)
+        #往数据库中添加
+        comment = Comments.objects.create(content=content,author=request.user,news=news)
+        serializer = CommetSerializers(comment)
+        return restful.result(data=serializer.data)
+    else:
+        return restful.params_error(message=form.get_errors())
+
+
