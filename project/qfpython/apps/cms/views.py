@@ -117,6 +117,31 @@ class WriteNewsView(View):
             return restful.success()
         else:
             return restful.params_error(message=form.get_errors())
+
+class EditNewsView(View):
+    def get(self,request):
+        news_id = request.GET.get('news_id')
+        newses = News.objects.get(pk=news_id)
+        categories = NewsCategory.objects.all()
+        context = {
+            'news':newses,
+            "categories": categories
+        }
+        return render(request,'cms/write_news.html',context=context)
+    def post(self,request):
+        form = WriteNewsForm(request.POST)
+        if form.is_valid():
+            title = form.cleaned_data.get('title')
+            desc = form.cleaned_data.get('desc')
+            thumbnail = form.cleaned_data.get('thumbnail')
+            content = form.cleaned_data.get('content')
+            category_id = form.cleaned_data.get('category')
+            category = NewsCategory.objects.get(pk=category_id)
+            News.objects.create(title=title,desc=desc,thumbnail=thumbnail,content=content,category=category)
+            return restful.success()
+        else:
+            return restful.params_error(message=form.get_errors())
+
 def news_category(request):
     categories = NewsCategory.objects.all()
     context = {

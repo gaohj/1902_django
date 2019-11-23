@@ -93,13 +93,19 @@ News.prototype.ListenSubmitEvent = function(){
     var submitBtn = $('#submit-btn');
     submitBtn.click(function (event) {
         event.preventDefault();//阻止默认提交
+        var btnAttr = $(this);
+        var pk = btnAttr.attr('data-news-id')//获取到要修改的文章的id
         var title = $("input[name='title']").val();
         var category = $("select[name='category']").val();
         var desc = $("input[name='desc']").val();
         var thumbnail = $("input[name='thumbnail']").val();
         var content = window.ue.getContent();
-        var url = '/cms/write_news/';
-        alert(category)
+        var url = '';
+        if(pk){
+            url = '/cms/edit_news/';
+        }else{
+            url = '/cms/write_news/';
+        }
         xfzajax.post({
             'url':url,
             'data':{
