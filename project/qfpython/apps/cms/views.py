@@ -96,7 +96,7 @@ class NewsList(View):
         }
     def post(self):
         pass
-
+#发布新闻
 class WriteNewsView(View):
     def get(self,request):
         categories = NewsCategory.objects.all()
@@ -113,11 +113,11 @@ class WriteNewsView(View):
             content = form.cleaned_data.get('content')
             category_id = form.cleaned_data.get('category')
             category = NewsCategory.objects.get(pk=category_id)
-            News.objects.create(title=title,desc=desc,thumbnail=thumbnail,content=content,category=category)
+            News.objects.create(title=title,desc=desc,thumbnail=thumbnail,content=content,category=category,author=request.user)
             return restful.success()
         else:
             return restful.params_error(message=form.get_errors())
-
+#修改新闻
 class EditNewsView(View):
     def get(self,request):
         news_id = request.GET.get('news_id')
@@ -136,8 +136,9 @@ class EditNewsView(View):
             thumbnail = form.cleaned_data.get('thumbnail')
             content = form.cleaned_data.get('content')
             category_id = form.cleaned_data.get('category')
+            pk = form.cleaned_data.get('pk')
             category = NewsCategory.objects.get(pk=category_id)
-            News.objects.create(title=title,desc=desc,thumbnail=thumbnail,content=content,category=category)
+            News.objects.filter(pk=pk).update(title=title,desc=desc,thumbnail=thumbnail,content=content,category=category)
             return restful.success()
         else:
             return restful.params_error(message=form.get_errors())

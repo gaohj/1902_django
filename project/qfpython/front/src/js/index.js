@@ -151,7 +151,84 @@ Banner.prototype.run = function () {
     this.listenPageControl();
 };
 
+
+
+function  Index() {
+    var self = this;
+    self.page = 2
+    self.category_id = 0
+    self.loadBtn = $('#load-more-btn');
+}
+
+Index.prototype.ListenLoadMoreEvent = function () {
+     var self = this;
+     var loadBtn = $('#load-more-btn');
+     loadBtn.click(function () {
+         xfzajax.get({
+             'url':'/news/list/',
+             'data':{
+                 'p':self.page,
+                 'category_id':self.category_id
+             },
+             'success':function (result) {
+                 if(result['code'] === 200){
+                     var newses = result['data'];
+                     if(newses.length > 0){
+                           var tpl = template("news-item",{"newes":newses})
+                           var ul = $('.list-inner-group');
+                           ul.append(tpl);
+                            self.page += 1;
+                     }else{
+                           loadBtn.hide();
+                     }
+                 }
+
+             }
+         })
+     })
+}
+
+Index.prototype.listenCategorySwitchEvent = function () {
+    var self = this;
+    var tabGroup = $(".list-tab");
+    tabGroup.children().click(function () {
+        // this：代表当前选中的这个li标签
+        var li = $(this);
+        var category_id = li.attr("data-category");
+        var page = 1;
+        xfzajax.get({
+            'url': '/news/list/',
+            'data': {
+                'category_id': category_id,
+                'p': page
+            },
+            'success': function (result) {
+                if(result['code'] === 200){
+                    var newses = result['data'];
+                    var tpl = template("news-item",{"newes":newses});
+                    // empty：可以将这个标签下的所有子元素都删掉
+                    var newsListGroup = $(".list-inner-group");
+                    newsListGroup.empty();
+                    newsListGroup.append(tpl);
+                    self.page = 2;
+                    self.category_id = category_id;
+                    li.addClass('active').siblings().removeClass('active');
+                    self.loadBtn.show();
+                }
+            }
+        });
+    });
+};
+Index.prototype.run =function () {
+    var self = this;
+    self.ListenLoadMoreEvent();
+    self.listenCategorySwitchEvent();
+}
+
 $(function () {
     var banner = new Banner();
     banner.run();
+
+    var index = new Index();
+    index.run();
 });

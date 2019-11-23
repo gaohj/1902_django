@@ -114,6 +114,7 @@ News.prototype.ListenSubmitEvent = function(){
                 'desc': desc,
                 'thumbnail': thumbnail,
                 'content': content,
+                'pk':pk,
             },
             'success':function (result) {
                 if(result['code'] === 200){
