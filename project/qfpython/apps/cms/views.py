@@ -4,7 +4,7 @@ from utils import restful
 from django.views.decorators.http import require_GET,require_POST
 import os
 from django.conf import settings
-from .forms import WriteNewsForm
+from .forms import WriteNewsForm,EditNewsCategoryForm
 from apps.news.models import NewsCategory,News
 from django.core.paginator import Paginator
 from datetime import datetime
@@ -157,6 +157,35 @@ def add_news_category(request):
         return restful.success()
     else:
         return restful.params_error(message="该分类已经存在")
+
+@require_POST
+def edit_news_category(request):
+    form = EditNewsCategoryForm(request.POST)
+    if form.is_valid():
+        pk = form.cleaned_data.get('pk')
+        name = form.cleaned_data.get('name')
+        try:
+            NewsCategory.objects.filter(pk=pk).update(name=name)
+            return restful.ok()
+        except:
+            return restful.params_error(message='该分类不存在！')
+    else:
+        return restful.params_error(message=form.get_error())
+
+
+@require_POST
+def delete_news_category(request):
+    pk = request.POST.get('pk')
+    try:
+        NewsCategory.objects.filter(pk=pk).delete()
+        return restful.ok()
+    except:
+        return restful.unauth(message='该分类不存在！')
+
+
+def banners(request):
+    return render(request,'cms/banners.html')
+
 
 def upload_file(request):
     file = request.FILES.get('file')

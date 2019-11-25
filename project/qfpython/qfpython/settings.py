@@ -39,10 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.qfauth',
     'apps.cms',
+    'apps.course',
     'apps.news',
     'apps.ueditor',
     'rest_framework',
     'debug_toolbar',
+
 ]
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
@@ -195,3 +197,5 @@ DEBUG_TOOLBAR_PANELS = [
 ]
 
 INTERNAL_IPS = ['127.0.0.1']
+BAIDU_CLOUD_USERID = '5f8ea981867a4be9992afc6f7a29166e'
+BAIDU_CLOUD_USE_KEY = 'dace2aa41df54fd7'

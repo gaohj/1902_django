@@ -24,6 +24,7 @@ urlpatterns = [
     path('cms/',include('apps.cms.urls')),
     path('news/',include('apps.news.urls')),
     path('ueditor/',include('apps.ueditor.urls')),
+    path('course/',include('apps.course.urls')),
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

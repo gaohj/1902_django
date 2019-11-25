@@ -1,5 +1,5 @@
 from django.urls import path
-from .import views
+from .import views,course_views
 
 app_name = 'cms'
 urlpatterns = [
@@ -13,4 +13,8 @@ urlpatterns = [
     path('qntoken/',views.qntoken,name='qntoken'),
 
 
+]
+
+urlpatterns += [
+    path('pub_course/',course_views.PublicCourse.as_view(),name='pub_course'),
 ]
