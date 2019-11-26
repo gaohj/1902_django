@@ -7,6 +7,8 @@ from .serializers import NewsSerializers,CommetSerializers
 from django.http import Http404
 from .forms import PublicCommentForm
 from .models import Comments
+from django.db.models import Q
+
 # Create your views here.
 def index(request):
     count = settings.ONE_PAGE_NEWS_COUNT
@@ -60,3 +62,12 @@ def public_comment(request):
         return restful.params_error(message=form.get_errors())
 
 
+def search(request):
+    q = request.GET.get('q')
+    context = {
+
+    }
+    if q:
+        newes = News.objects.filter(Q(title__icontains=q)|Q(content__icontains=q))
+        context['newses'] = newes
+    return render(request,'search/search1.html',context=context)

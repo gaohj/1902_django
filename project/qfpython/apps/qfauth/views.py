@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect,reverse
 from django.contrib.auth import logout,login,authenticate
 from django.views.generic import View
 from .forms import LoginForm,RegisterForm
@@ -96,3 +96,6 @@ def img_captcha(request):
     print(cache.get(text.lower()))
     return response
 
+def logout_view(request):
+    logout(request)
+    return redirect(reverse('index'))

@@ -10,9 +10,17 @@ from django.core.paginator import Paginator
 from datetime import datetime
 from django.utils.timezone import make_aware
 from urllib import parse
+from django.utils.decorators import method_decorator
+from django.contrib.auth.decorators import permission_required
+from django.contrib.admin.views.decorators import staff_member_required
 # Create your views here.
+
+@staff_member_required(login_url='index')
+#统一从前台登录  如果说你是超级管理员  那么会看到后台管理页面的入口
 def index(request):
     return render(request,'cms/index.html')
+
+@method_decorator(permission_required(perm='news.change_news',login_url='/'),name='dispatch')
 class NewsList(View):
     def get(self,request):
         start = request.GET.get('start')
@@ -97,6 +105,7 @@ class NewsList(View):
     def post(self):
         pass
 #发布新闻
+@method_decorator(permission_required(perm='news.add_news',login_url='/'),name='dispatch')
 class WriteNewsView(View):
     def get(self,request):
         categories = NewsCategory.objects.all()
@@ -118,6 +127,7 @@ class WriteNewsView(View):
         else:
             return restful.params_error(message=form.get_errors())
 #修改新闻
+@method_decorator(permission_required(perm='news.change_news',login_url='/'),name='dispatch')
 class EditNewsView(View):
     def get(self,request):
         news_id = request.GET.get('news_id')

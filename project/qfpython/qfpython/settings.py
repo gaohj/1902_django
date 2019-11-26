@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'apps.ueditor',
     'rest_framework',
     'debug_toolbar',
+    'haystack',
 
 ]
 MIDDLEWARE = [
@@ -199,3 +200,14 @@ DEBUG_TOOLBAR_PANELS = [
 INTERNAL_IPS = ['127.0.0.1']
 BAIDU_CLOUD_USERID = '5f8ea981867a4be9992afc6f7a29166e'
 BAIDU_CLOUD_USE_KEY = 'dace2aa41df54fd7'
+
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(BASE_DIR, 'whoosh_index'),
+    },
+}
+
+
+# 增删改查后自动创建索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
