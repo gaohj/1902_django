@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c733e06-9b3c-45c9-9230-3a8bf47855d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../celery_demo/apps/beat_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cms/staff_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/news/search_indexes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/news/whoosh_cn_backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/qfauth/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/qfauth/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/qfauth/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/qfauth/management/commands/init_group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/templates/search/indexes/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/templates/search/indexes/news/news_text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/templates/search/search1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../celery_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../celery_demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../celery_demo/apps/celery_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../celery_demo/apps/celery_conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../celery_demo/apps/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../celery_demo/apps/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../celery_demo/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/../celery_demo/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../celery_demo/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../celery_demo/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/qfauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/qfauth/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/qfauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/qfauth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/base/front_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/base/front_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/cms/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/search/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/search/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qfpython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/qfpython/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qfpython/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/qfpython/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +37,7 @@
     <session id="-1333584684">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -84,9 +59,9 @@
           <entry key="js" value="38" />
           <entry key="json" value="2" />
           <entry key="png" value="2" />
-          <entry key="py" value="206" />
+          <entry key="py" value="207" />
           <entry key="scss" value="3" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="4" />
           <entry key="项目配置工作" value="2" />
         </counts>
       </usages-collector>
@@ -97,8 +72,8 @@
           <entry key="Image" value="2" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="38" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="206" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="207" />
           <entry key="SCSS" value="3" />
         </counts>
       </usages-collector>
@@ -128,7 +103,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/cms/staff_views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
@@ -138,6 +113,20 @@
                 <marker date="1574740383075" expanded="true" signature="365:370" ph="..." />
                 <marker date="1574740383075" expanded="true" signature="604:609" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qfpython/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -232,7 +221,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -329,47 +318,6 @@
             <path>
               <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
               <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="qfauth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qfpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qfpython" type="462c0819:PsiDirectoryNode" />
               <item name="qfpython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,7 +334,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ToolWindowTerminal.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qfpython" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -523,8 +471,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23567335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -540,7 +487,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.46091643" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928367" weight="0.45822102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928367" visible="true" weight="0.45822102" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884097" />
       <window_info anchor="bottom" id="manage.py@qfpython" order="13" weight="0.49191374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -629,9 +576,6 @@
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/js/message.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -799,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qfpython/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="206" column="37" selection-start-line="206" selection-start-column="37" selection-end-line="206" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/jiangxiligong/django_1902/Lib/site-packages/haystack/backends/whoosh_backend.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -937,6 +874,16 @@
             <marker date="1574740383075" expanded="true" signature="365:370" ph="..." />
             <marker date="1574740383075" expanded="true" signature="604:609" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qfpython/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
